@@ -1,26 +1,49 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer base {
+  h1 {
+    @apply text-3xl 
   }
-  body {
-    color: white;
-    background: black;
+
+  h2 {
+  }
+  .example{
+    @apply text-2xl text-red-200
   }
 }
+
+@layer components {
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+}
+
+@layer utilities {
+  .h-half {
+    height: 30rem;
+  }
+}
+
+@media screen(md) {
+  h1{
+    @apply text-5xl 
+  }
+  .h-half {
+    height: 50rem ;
+  }
+}
+.navbar-background {
+
+  background: rgba(30, 30, 30, .3);
+  -webkit-box-shadow: 10px 10px 40px 0 rgb(10 10 10 / 10%);
+  -moz-box-shadow: 10px 10px 40px 0 rgba(10, 10, 10, .1);
+  box-shadow: 10px 10px 40px 0 rgb(10 10 10 / 10%);
+  backdrop-filter: blur(10px)
+}
+
+
