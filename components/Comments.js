@@ -48,7 +48,7 @@ const Comments = () => {
                 {
                     comment.map((comment, key) => (
                         <SwiperSlide key={key}>
-                            <div className=' flex flex-col  h-96 md:h-72  border rounded-lg shadow-md my-12 mx-4  px-5 pb-10  pt-5' key={key}>
+                            <div className=' flex flex-col  h-96 md:h-72  border rounded-lg shadow-md my-12 mx-5  px-5 pb-10  pt-5' key={key}>
                                 <div className='flex justify-start mb-3   '>
                                     <Avatar size={40} style={{ color: '#f56a00', backgroundColor: '#fde3cf' }}>{comment.username.at(0)}</Avatar>
                                     <div className='flex  flex-col ml-5'>

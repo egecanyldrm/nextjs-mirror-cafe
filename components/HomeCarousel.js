@@ -24,10 +24,8 @@ const HomeCarousel = () => {
                 MIRROR <br /> GASTRO PUB
               </h1>
               <br />
-              <p>
-                Stradale is a exclusive website template specially made for Cafe
-                and Coffe Shops. Made using only the finest coding dan design
-                practices. Get Stradale now!
+              <p className=' max-w-6xl'>
+                Mirror Public House is the most visited gastro bar in Antalya, offering a comfortable environment for visitors with a high level of dining experience. Offering delicious and gourmet food, the pub also offers its visitors a fun and relaxed atmosphere with a variety of activities.
               </p>
             </div>
           </div>
@@ -48,10 +46,8 @@ const HomeCarousel = () => {
                 MIRROR <br /> GASTRO PUB
               </h1>
               <br />
-              <p>
-                Stradale is a exclusive website template specially made for Cafe
-                and Coffe Shops. Made using only the finest coding dan design
-                practices. Get Stradale now!
+              <p className=' max-w-6xl'>
+                Mirror Public House is the most visited gastro bar in Antalya, offering a comfortable environment for visitors with a high level of dining experience. Offering delicious and gourmet food, the pub also offers its visitors a fun and relaxed atmosphere with a variety of activities.
               </p>
             </div>
           </div>
